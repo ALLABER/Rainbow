@@ -1,6 +1,14 @@
 <animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:drawable="@drawable/ic_splashscreen_logo">
     <target
-        android:name="logoGroup"
-        android:animation="@animator/splashscreen_animator" />
+        android:name="background"
+        android:animation="@animator/splashscreen_animator_background" />
+
+    <target
+        android:name="head"
+        android:animation="@animator/splashscreen_animator_head" />
+
+    <target
+        android:name="other"
+        android:animation="@animator/splashscreen_animator_other" />
 </animated-vector>
